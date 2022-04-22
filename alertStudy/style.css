@@ -12,7 +12,6 @@
   color: #6653d9;
 }
 
-
 .light-theme .theme-button {
   color: #6653d9;
   border: 1px solid #6653d9;
@@ -52,11 +51,26 @@
     content: "p";
   }
 
-  .light-theme .theme-button {
-    color: #6653d9;
-    border: 1px solid #6653d9;
+ /*НАЧАЛО ТЁМНОЙ ТЕМЫ*/
+
+  .dark-theme {
+    color: #300000;
+    background-color: #8878ff;
   }
   
+  .dark-theme .page-header {
+    background-color: #3f0042;
+    box-shadow: 0 2px 2px rgba(80, 16, 16, 0.2);
+  }
+  
+  .dark-theme .header-link {
+    color: #080037;
+  }
+  
+  .dark-theme .theme-button {
+    color: #0e005c;
+    border: 1px solid #3d0000;
+  }
   
   .dark-theme html,body {
     margin: 0;
@@ -64,34 +78,37 @@
     font-size: 16px;
     line-height: 20px;
   }
+  
     
     html::before,
     body::before {
-      color: #59006b;
+      color: #002a50;
     }
   
     .dark-theme .h1 {
       font-size: 18px;
-      background-color: #610000;
-      border: 2px solid #ffe1cb;
+      background-color: #ff9e9e;
+      border: 2px solid #572400;
     }
   
     .dark-theme .h1::before {
       content: "h1";
-      color: #ff994f;
+      color: #963e00;
     }
     
     .dark-theme .p {
-      background-color: #ff0f0f;
-      border: 2px solid #000000;
+      background-color: #ff9ef9;
+      border: 2px solid #5d2363;
     }
     
     .dark-theme .p::before {
-      color: #9900a7;
+      color: #240027;
       content: "p";
     }
   
 
+
+  
   * {
     position: relative;
     padding: 25px 25px 20px;
